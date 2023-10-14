@@ -679,9 +679,7 @@ margin-right: 76px;
     width: 360px;
     color:#2E2F42;
     text-align: center;
-    font-family: 'Roboto';
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -689,7 +687,7 @@ margin-right: 76px;
 }
 
 .modal-field {
-    margin-bottom: 8px;
+    margin-bottom: 26px;
 }
 
 .modal-input {
@@ -719,17 +717,14 @@ margin-right: 76px;
     color:#8E8F99;
         font-family: 'Roboto';
         font-size: 12px;
-        font-style: normal;
         font-weight: 400;
         line-height: 1.16;
         letter-spacing: 0.04em;
-        margin-bottom: 4px;
 }
 
 
 .modal-field-block {
     position: relative;
-    margin-top: 4px;
 }
 
 .modal-icon {
@@ -772,4 +767,39 @@ margin-right: 76px;
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+}
+
+
+
+
+.modal-check-text {
+    color:#8E8F99;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.16;
+        letter-spacing: 0.02em;
+}
+
+.modal-check-span {
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border:1px solid rgba(46, 47, 66, 0.40);
+    margin-right: 8px;
+}
+
+.modal-check-link {
+    color: #4D5AE5;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.33;
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
+}
+
+.modal-check-input:checked + .modal-check-text span {
+    background-color: #404BBF;
+    border: none;
 }
