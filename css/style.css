@@ -639,7 +639,7 @@ margin-right: 76px;
 
 .modal {
     width: 408px;
-    height: 548px;
+    min-height: 548px;
     border-radius: 4px;
     background:#FCFCFC;
     position: absolute;
@@ -650,6 +650,9 @@ margin-right: 76px;
 }
 
 .modal-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
     width: 24px;
     height: 24px;
@@ -661,9 +664,10 @@ margin-right: 76px;
     background-color: #E7E9FC;
     fill: #2E2F42;
     border: 1px;
-    border-color: rgba(0, 0, 0, 0.10);
-    transition: background-color 250ms fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
+
 
 .modal-btn:hover {
     background-color: #404BBF;
