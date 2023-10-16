@@ -557,6 +557,10 @@ margin-right: 76px;
 }
 
 
+.footer-soc-block {
+    margin-right: 80px;
+}
+
 .footer-soc-list {
     display: flex;
     gap: 16px;
@@ -577,13 +581,8 @@ margin-right: 76px;
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    
-    /* background-color: #4D5AE5; */
 }
 
-/* .footer-soc-item:not(:last-child) {
-    margin-right: 16px;
-} */
 
 .footer-soc-link {
     background-color: #4d5ae5;
@@ -609,6 +608,50 @@ margin-right: 76px;
 
 .footer-soc-icon {
     fill: #f4f4fd;
+}
+
+
+
+.footer-nav-text {
+    color: #FFF;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        margin-bottom: 16px;
+}
+
+.footer-input {
+    width: 264px;
+    height: 40px;
+    padding-left: 16px;
+    background-color: inherit;
+    border-radius: 4px;
+    border: 1px solid var(--WHITE, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    
+    
+}
+
+.footer-nav-btn {
+    max-width: 165px;
+    height: 40px;
+    display: inline-flex;
+        gap: 16px;
+        padding: 8px 24px;
+    color:#FFF;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        border-radius: 4px;
+        background: #4D5AE5;
+        margin-left: 24px;
+        
 }
 
 /*---------------------------------------modal-----------------------*/
