@@ -655,12 +655,6 @@ margin-right: 76px;
 }
 
 /*---------------------------------------modal-----------------------*/
-.is-open {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-}
-
 .backdrop {
     position: fixed;
     top: 0;
@@ -672,7 +666,6 @@ margin-right: 76px;
     visibility: hidden;
     pointer-events: none;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
@@ -738,10 +731,6 @@ margin-right: 76px;
 
 .modal-field {
     margin-bottom: 8px;
-}
-
-.modal-field-fix {
-    margin-bottom: 16px
 }
 
 .modal-input {
@@ -827,7 +816,11 @@ margin-right: 76px;
     border-color: #4D5AE5;
 }
 
-
+.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
 
 
 .modal-field-checkbox {
@@ -855,10 +848,6 @@ margin-right: 76px;
     align-items: center;
         justify-content: center;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-check-text span {
-    display: inline-flex;
 }
 
 .modal-check-link {
