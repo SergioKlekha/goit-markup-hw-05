@@ -610,6 +610,9 @@ margin-right: 76px;
     fill: #f4f4fd;
 }
 
+.footer-nav-block {
+    gap:24px;
+}
 
 
 .footer-nav-text {
