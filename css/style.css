@@ -213,6 +213,11 @@ margin-right: 76px;
 
 
 
+
+
+
+
+
 .hero-title {
     color: #FFFFFF;
         font-size: 56px;
@@ -261,6 +266,7 @@ margin-right: 76px;
 
 .feature-list {
     display: flex;
+    /* flex-wrap: wrap; */
 }
 
 .feature-item {
@@ -914,3 +920,5 @@ margin-right: 76px;
 .modal-btn-check:focus {
     background-color: #404BBF;
 }
+
+/*-----------------mobile---------------*/
